@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI Tracker</string>
+    <string name="hello_miljenko">Hallo Dominik</string>
+    <string name="your_bmi">Dein BMI ist: %1$d</string>
+    <string name="recommended_exercises">Empfohlene Übungen:</string>
+</resources>
