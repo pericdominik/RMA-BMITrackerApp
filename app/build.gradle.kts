@@ -59,9 +59,20 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    // Kotlin korutine
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+
+    // Compose + CoroutineScope
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.7")
 
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3")
+    implementation ("androidx.datastore:datastore-preferences:1.0.0")
+    // Firebase
+    //implementation("com.google.firebase:firebase-firestore:24.9.1")
+    implementation("androidx.activity:activity-ktx:1.8.0")
+    implementation("androidx.fragment:fragment-ktx:1.6.1")
+    implementation("io.coil-kt:coil-compose:2.5.0")
+
+    implementation("androidx.navigation:navigation-compose:2.7.5")
+    implementation ("androidx.core:core:1.12.0")
 }
